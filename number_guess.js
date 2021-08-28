@@ -10,8 +10,7 @@ function guessNumber() {
 
     // take the input until the guess is correct
     while(number !== random) {
-        console.log("Wrong Guess, try again..");
-        number = parseInt(prompt('Guess a number from 1 to 10: '));
+        number = parseInt(prompt('Wrong Guess, try again.. Guess a number from 1 to 10: '));
     }
 
     // check if the guess is correct
